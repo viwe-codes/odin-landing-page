@@ -3,12 +3,70 @@ body {
 
 }
 
+.container,
+.footer {
+    background-color: #1f2937;
+}
+
+/*ul {
+    list-style: none;
+}*/
+
+a {
+    text-decoration: none;
+    color: #f9faf8
+}
+
 .logo {
     width: 100px;
     height: 100px;
 }
 
-img {
+.placeholder {
     width: 250px;
     height: 150px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.input,
+.call-to-action {
+    background-color: #3882f6
+}
+
+.info-random {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.image-info {
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.testimonials {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.footer {
+    color: #e5e7eb;
 }

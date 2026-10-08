@@ -60,11 +60,15 @@ a {
 .logo {
     width: 80px;
     height: 80px;
+    border-radius: 0;
+    border: 0;
 }
 
 .placeholder {
     width: 400px;
     height: 200px;
+    border-radius: 0;
+    border: 0;
 }
 
 .placeholder-img {
@@ -75,6 +79,8 @@ a {
 img {
     width: 150px;
     height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
 }
 
 .heading {

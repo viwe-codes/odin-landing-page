@@ -59,8 +59,9 @@ a {
 .placeholder {
     width: 300px;
     height: 150px;
-    /*display: flex;*/
+    display: flex;
     align-self: flex-end;
+
     /*margin-left: auto;*/
 }
 
@@ -93,7 +94,8 @@ img {
 .info {
     display: flex;
     flex-direction: column;
-    padding: 0px 100px;
+    padding: 50px 100px;
+    gap: 25px;
 }
 
 .info-random {
@@ -107,6 +109,26 @@ img {
     font-size: 18px;
     color: #1f2937;
     display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    width: 150px;
+}
+
+.subtext {
+    /*align-self: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-grow: 1;
+    width: 150px;*/
 }
 
 .testimonials {
@@ -135,6 +157,10 @@ img {
 .call-to-action div {
     font-weight: 900;
     font-size: 20px;
+}
+
+.button-cta {
+    display: flex;
 }
 
 .input-cta {

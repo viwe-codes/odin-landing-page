@@ -150,21 +150,30 @@ img {
     margin: 40px 150px;
     padding: 20px 100px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    /*flex-direction: column;*/
     border-radius: 8px;
+    gap: 350px;
 }
 
-.call-to-action div {
+.call-to-action .bold-cta {
     font-weight: 900;
     font-size: 20px;
+    /*display: flex;
+    flex-direction: column;*/
+    
 }
 
 .button-cta {
     display: flex;
+    margin-bottom: auto;
+    margin-top: auto;
+    /*justify-content: flex-end;
+    margin-bottom: auto;*/
 }
 
 .input-cta {
-    align-self: flex-end;
+    /*align-self: flex-end;*/
     border-color: #f9faf8;
     margin-top: auto;
 }

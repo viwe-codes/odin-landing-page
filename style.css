@@ -9,20 +9,30 @@ body {
 .container,
 .footer {
     background-color: #1f2937;
-    padding: 15px 100px;
+    padding: 15px 150px;
     display: flex;
     flex-direction: column;
+    gap: 40px;
+}
+
+.container {
+    padding-bottom: 50px;
 }
 
 .header {
-    display: flex; 
+    display: flex;
 }
 
 .hero-section {
     display: flex;
+    gap: 150px;
+}
+
+.text-container {
+    display: flex;
     flex-direction: column;
-    /*flex-wrap: wrap;
-    align-items: center;*/
+    justify-content: center;
+    gap: 10px;
 }
 
 .input,
@@ -30,10 +40,6 @@ body {
     width: 100px;
     padding: 5px 10px;
     border-radius: 10px;
-}
-
-.input {
-    /*border: o;*/
 }
 
 ul  {
@@ -52,24 +58,23 @@ a {
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 .placeholder {
-    width: 300px;
-    height: 150px;
-    display: flex;
-    align-self: flex-end;
+    width: 400px;
+    height: 200px;
+}
 
-    /*margin-left: auto;*/
+.placeholder-img {
+    display: flex;
+    align-items: center;
 }
 
 img {
     width: 150px;
     height: 150px;
-    /*align-items: center;
-    display: flex;*/
 }
 
 .heading {
@@ -81,7 +86,6 @@ img {
 .text {
     color: #e5e7eb;
     font-size: 18px;
-    flex-wrap: wrap;
 }
 
 .input,
@@ -122,15 +126,6 @@ img {
     width: 150px;
 }
 
-.subtext {
-    /*align-self: center;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-grow: 1;
-    width: 150px;*/
-}
-
 .testimonials {
     background-color: #e5e7eb;
     font-size: 36px;
@@ -151,29 +146,22 @@ img {
     padding: 20px 100px;
     display: flex;
     justify-content: center;
-    /*flex-direction: column;*/
     border-radius: 8px;
     gap: 350px;
 }
 
 .call-to-action .bold-cta {
     font-weight: 900;
-    font-size: 20px;
-    /*display: flex;
-    flex-direction: column;*/
-    
+    font-size: 20px;    
 }
 
 .button-cta {
     display: flex;
     margin-bottom: auto;
     margin-top: auto;
-    /*justify-content: flex-end;
-    margin-bottom: auto;*/
 }
 
 .input-cta {
-    /*align-self: flex-end;*/
     border-color: #f9faf8;
     margin-top: auto;
 }

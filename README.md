@@ -1,5 +1,8 @@
 # odin-landing-page
 
+A simple landing page designed using html Markup and a flex layout.
+
+
 logo designed by DS stories. https://www.pexels.com/photo/a-word-idea-on-a-white-surface-6991387/
 
 placeholder.jpg by r-q. https://pixabay.com/photos/church-religion-christianity-7390546/
